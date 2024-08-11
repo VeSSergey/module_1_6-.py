@@ -9,7 +9,9 @@ my_dict.update({'Rafic': 1875,
 print(my_dict)
 my_dict.pop('Olga')
 print(my_dict)
-print(my_dict)
+print(my_dict.get('Olga', 'Только что удалил из словаря'))
+removed_year = my_dict.get('Olga')
+print(removed_year)
 # 3HW
 my_set = {8, 8, 2, 'Blueberry', 4, 9, 1, 4, False, 'Blueberry'}
 print(my_set)
